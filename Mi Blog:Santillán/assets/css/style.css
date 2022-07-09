@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Home */
+
+header{
+    background-color: rgb(32, 44, 57);
+    height: 112px;
+}
+
+@font-face {
+    font-family: "Bebas";
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Manrope";
+    src: url(../fonts/Manrope-VariableFont_wght.ttf);
+}
+
+.header__titulo {
+    color:rgb(242, 212, 146);
+    font-size: 60px;
+    font-family: "Bebas";
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    background-color: rgb(40, 56, 69);
+    float: left;
+}
+
+.header__navbar ul {
+    padding: 2rem;
+    list-style-type: none;
+    text-align: right;
+    padding-top: 40px;
+
+
+}
+
+.header__navbar li {
+display: inline;
+}
+
+.header__navbar a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color:rgb(242, 212, 146);
+    font-family: "Manrope";
+    font-size: 20px;
+    font-weight: 1000;
+    padding: 2rem;
+    background-color: rgb(32, 44, 57);
+    
+}
+
+.articulo1 {
+    background-image: url(../images/buenos_aires.jpeg);
+    height: 865px;
+
+}
+
+.articulo1__fondo {
+    background-color: rgb(32, 44, 57, 0.75);
+    padding: 60px;
+    z-index: 2;
+}
+
+.articulo1__titulo {
+    text-align: center;
+    font-family: "Bebas";
+    font-size: 50px;
+    color: rgb(242, 212, 146);
+
+
+}
+.articulo1__video {
+    display: flex; 
+    justify-content: center;
+}
+.articulo1__descripcion {
+    font-family: "Manrope";
+    color:rgb(32, 44, 57);
+    font-size: 16px;
+    background-color: rgb(242, 212, 146, 0.80);
+    z-index: 3;
+    text-align: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 5px;
+
+}
+
+.footer {
+    border-top: solid 5px black;
+    background-color: rgb(184, 176, 141);
+    height: 100px;
+
+}
+
+.footer__copyright {
+    color: rgb(32, 44, 57);
+    font-family: "Manrope";
+    font-size: 15px;
+    padding: 40px;
+    float:left;
+}
+
+/* Galería */
+
+.galeria__fondo {
+    background-image: url(../images/back.jpeg);
+    background-size: cover;
+}
+
+.titulo_pagina {
+
+    text-align: left;
+    font-family: "Bebas";
+    font-size: 50px;
+    color: rgb(242, 212, 146);
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(40, 56, 69, 0.75);
+
+}
+
+.galeria__paris {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+   
+}
+
+.galeria__seul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.galeria__capetown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.galeria__articulos {
+    display:flex;
+    flex-direction:row;
+}
+
+.galeria__titulo--articulo {
+    display: inline;
+    font-family: "Manrope";
+    color: rgb(32, 44, 57);
+    font-size: 30px;
+    padding: 30px;
+    
+}
+
+.articulo__epigrafe {
+    font-family: "Manrope";
+    font-size: 12px;
+    padding-bottom: 20px;
+}
+
+/* Acerca de Mi*/
+
+.a_de_mi__imagen {
+    padding: 30px;
+}
+
+.a_de_mi__fondo {
+    background-image: url(../images/back2.jpeg);
+    background-size: cover;
+    z-index: -1;
+}
+.a_de_mi__biografia{
+    display: block;
+    width: 70%;
+    padding: 30px;
+    float:right;
+    background-color: rgb(242, 212, 146, 0.50);
+    position: relative;
+    bottom: 600px;
+    
+}
+.a_de_mi__biografia--titulo{
+    font-family: "Manrope";
+    font-size: 30px;
+    color: rgb(32, 44, 57);
+    
+}
+
+.a_de_mi__biografia--texto {
+    font-family: "Manrope";
+    font-size: 12px;
+    color: rgb(32, 44, 57);
+    
+}
+
+/* Contacto */
+
+.contacto__fondo {
+    background-image: url(../images/back3.jpeg);
+    background-size: cover;
+    z-index: -1;
+}
+
+.form {
+    padding: 30px;
+    font-family: "Manrope";
+    color:rgb(242, 212, 146);
+
+}
+.form__fondo{
+    background-color: rgb(32, 44, 57, 0.60);
+}
+.form__titulo {
+    font-family: "Bebas";
+    font-size: 45px;
+    text-align: center;
+    color: rgb(242, 212, 146);
+    
+}
+.form__bullet{
+    padding: 20px;
+    font-size: 18px;
+}
+.form__pais{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.form__textarea{
+    position: relative;
+    left: 30px;
+}
+
+/* Recursos */
+
+.recursos__fondo{
+    background-image: url(../images/back3.jpeg);
+    background-size: cover;
+}
+
+.recursos__eventos{
+    background-color:rgb(32, 44, 57, 0.75);
+    display: block;
+    width: 30%;
+    text-align: center;
+    position: relative;
+    left: 590px;
+
+
+}
+.recursos__eventos--titulo{
+    font-family: "Bebas";
+    color:rgb(242, 212, 146);
+    font-size: 40px;
+}
+.recursos__eventos--tabla{
+    font-family: "Manrope";
+    font-size: 15px;
+    color:rgb(242, 212, 146);
+    padding-bottom: 40px;
+    padding-top: 20px;
+    position: relative;
+    left:90px;
+
+}
+
+.recursos__guia--titulo{
+    font-family: "Bebas";
+    color:rgb(242, 212, 146);
+    font-size: 80px;
+    text-align: center;
+    padding: 30px;
+}
+.recursos__guias{
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
